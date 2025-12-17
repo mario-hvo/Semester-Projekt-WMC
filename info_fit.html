@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Informatik-Fit</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="info_fit.css">
+  </head>
+  <body>
+    <header class="header">
+        <div class="logo">
+            <h1>V</h1>
+            <p class="dash">-</p>
+            <h2>technics</h2>
+        </div>
+        
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Projekte</a>
+            <a href="#" class="nav-link">Galerie</a>
+            <a href="info_fit.html" class="nav-link">Informatik Fit</a>
+            <a href="#" class="nav-link">Kontakt</a>
+        </nav>
+    </header>
+    <img
+      src="https://imoox.at/mooc/pluginfile.php/506127/course/overviewfiles/imoox-moox-InfoFit24-kursbild.png"
+      alt="Informatik-Fit"
+      width="200"
+      height="auto"
+    />
+
+    <h1 id="lektion1">Lektion 1:</h1>
+    <p><strong>Informatik ist...</strong></p>
+    <ul>
+      <li>
+        die Wissenschaft und der Technik des Computers und seiner Anwendungen
+      </li>
+    </ul>
+    <p><strong>Geschichte der Informatik: </strong></p>
+    <ul>
+      <li>
+        Der Abakus war die erste Datenverwaltung. Die Anfänge der Informatik
+        (~2700 v. Chr.).
+      </li>
+      <li>
+        Die Meilensteine der Informatik:
+        <ul>
+          <li>
+            <strong>Charles Babbage (1837):</strong> Analytical Engine die erste
+            programmierbare Maschine.
+          </li>
+          <li>
+            <strong>Ada Lovelace:</strong> Die erste Programmiererin, sie
+            schrieb den Algorithmus für die Analytical Engine.
+          </li>
+          <li>
+            <strong>Herman Hollerith (1890):</strong> Er hat das
+            Lochkartensystem für die US-Volkszählung erfunden. (Grundstein für
+            IBM)
+          </li>
+          <li>
+            <strong>Alan Turing (1936):</strong> Erfand das Konzept der
+            Turing-Maschine, die Berechenbarkeit.
+          </li>
+          <li>
+            <strong>Konrad Zuse (1938):</strong> Er baute den ersten
+            mechanischen Computer, namens Zuse Z1. Später dann den Z3 (1941)
+          </li>
+          <li>
+            <strong>ENIAC (1945):</strong> Das war der ersten elektronischer
+            Universalrechner mit 5.000 Rechenoperationen pro Sekunde.
+          </li>
+          <li>
+            <strong>Transistor (1947):</strong> Das war die größte Erfindung,
+            sie ersetze die Elektronenröhre. Der Transistor war schneller,
+            kleiner und energieeffizienter.
+          </li>
+          <li>
+            <strong>IBM System/360 (1964):</strong> Das war der erste
+            Mainframe-Computer mit Transistoren.
+          </li>
+          <li>
+            <strong>Intel 4004 (1971):</strong> Der erste Mikroprozessor, dieser
+            führte dann zu den modernen Prozessoren.
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <hr />
+    <h1 id="lektion2">Lektion 2: Der Computer und seine Funktionsweise:</h1>
+    <p><strong>EVA-Prinzip (Eingabe – Verarbeitung – Ausgabe)</strong></p>
+    <p>Das EVA-Prinzip beschreibt, wie ein Computer arbeitet:</p>
+    <ul>
+      <li>
+        <strong>Eingabe: </strong> Daten werden über Eingabegeräte wie Tastatur,
+        Maus oder Mikrofon in den Computer eingegeben.
+      </li>
+      <li>
+        <strong>Verarbeitung: </strong>Die Daten werden von der CPU (Central
+        Processing Unit) verarbeitet, die aus Steuerwerk und Rechenwerk besteht.
+      </li>
+      <li>
+        <strong>Ausgabe: </strong>Ergebnisse werden über Ausgabegeräte wie
+        Monitor oder Lautsprecher wiedergegeben.
+      </li>
+    </ul>
+    <h2><strong>Hardwarekomponenten eines Computers</strong></h2>
+    <p><strong>CPU (Zentrale Verarbeitungseinheit):</strong></p>
+    <p>Das "Gehirn" des Computers, führt alle Rechenoperationen aus.</p>
+    <p>Sie Besteht aus:</p>
+    <ul>
+      <li>
+        <strong>Steuerwerk (Controller): </strong>Steuert die Abläufe im
+        Computer.
+      </li>
+      <li>
+        <strong>Rechenwerk (ALU – Arithmetic Logical Unit): </strong>Führt
+        Rechenoperationen durch, speichert Daten in schnellen Registern.
+      </li>
+      <li>
+        <strong>Programmzähler: </strong>Zeigt auf den aktuellen Befehl im
+        Hauptspeicher, der ausgeführt werden soll.
+      </li>
+    </ul>
+    <p><strong>RAM (Arbeitsspeicher):</strong></p>
+    <ul>
+      <li>
+        Enthält Programme und Daten, auf die die CPU direkt zugreifen kann.
+      </li>
+      <li>
+        Programme müssen vor der Ausführung vom Permanentspeicher (z.B.
+        Festplatte) in den RAM geladen werden.
+      </li>
+    </ul>
+    <p><strong>Bussystem:</strong></p>
+    <p>Transportiert Daten zwischen den Komponenten des Computers.</p>
+    <ul>
+      <li>
+        <strong>Eingabe-/Ausgabebus:</strong> Transportiert Daten zwischen
+        externen Geräten und dem Hauptspeicher.
+      </li>
+      <li>
+        <strong>Daten- und Befehlsbus:</strong> verbindet den Hauptspeicher mit
+        der CPU.
+      </li>
+    </ul>
+    <p><strong>Eingabe-/Ausgabeeinheiten:</strong></p>
+    <ul>
+      <li>
+        <strong>Eingabeeinheit:</strong> Nimmt Eingaben entgegen und leitet sie
+        an den Bus weiter.
+      </li>
+      <li>
+        <strong>Ausgabeeinheit:</strong> Gibt berechnete Ergebnisse für den
+        Menschen lesbar aus.
+      </li>
+    </ul>
+    <p><strong>Permanentspeicher (z.B. Festplatte):</strong></p>
+    <ul>
+      <li>Daten bleiben auch nach dem Ausschalten des Computers erhalten.</li>
+    </ul>
+    <h2>Datenverarbeitung und Maschinensprache</h2>
+    <ul>
+      <li>
+        <strong>Befehlssatz:</strong> Die Menge an Befehlen, die eine CPU
+        verarbeiten kann. Jeder CPU-Typ hat einen eigenen Befehlssatz.
+      </li>
+      <li>
+        <strong>Maschinensprache:</strong> Computer arbeiten mit binären Zahlen
+        (0 und 1), sogenannte Bits.
+      </li>
+      <li>
+        <strong>Binärsystem:</strong> Besteht aus zwei Ziffern (0 und 1). Jedes
+        Bit repräsentiert einen Zustand (Spannung oder keine Spannung).
+      </li>
+      <li>
+        <strong>ASCII-Code und Unicode:</strong> Standardtabellen zur Zuordnung
+        von Buchstaben, Zahlen und Sonderzeichen zu Bitmustern.
+      </li>
+    </ul>
+    <p><strong>Zahlensysteme</strong></p>
+    <ul>
+      <li>
+        <strong>Binärsystem (Basis 2):</strong> Wird für die Verarbeitung und
+        Speicherung von Daten verwendet.
+      </li>
+      <li>
+        <strong>Dezimalsystem (Basis 10):</strong> Unser bekanntes Zahlensystem
+        mit 10 Ziffern.
+      </li>
+      <li>
+        <strong>Hexadezimalsystem (Basis 16):</strong> Komfortabler zur
+        Darstellung großer Binärzahlen.
+      </li>
+    </ul>
+    <p><strong>Einheiten der Informationsmenge</strong></p>
+    <ul>
+      <li><strong>Bit:</strong> Die kleinste Informationseinheit.</li>
+      <li>
+        <strong>Byte:</strong> 1 Byte = 8 Bits. Größere Einheiten wie Kilobyte
+        (KB), Megabyte (MB), und Gigabyte (GB) werden verwendet, um die Größe
+        von Dateien anzugeben.
+      </li>
+    </ul>
+    <p><strong>Rechnen mit dem Binärsystem (Dualsystem)</strong></p>
+    <p>
+      Das binäre Zahlensystem, auch Dualsystem genannt, bildet die Grundlage der
+      digitalen Datenverarbeitung. Im Gegensatz zum Dezimalsystem (Basis 10),
+      das wir im Alltag verwenden, hat das Binärsystem die Basis 2 und arbeitet
+      nur mit zwei Ziffern: 0 und 1.
+    </p>
+    <p><strong>Warum das Binärsystem?</strong></p>
+    <ul>
+      <li>
+        Der physikalische Aufbau eines Computers, insbesondere die Verwendung
+        von Transistoren, bedingt die Nutzung des Binärsystems.
+      </li>
+      <li>
+        Ein Transistor funktioniert wie ein Schalter mit zwei Zuständen: An (1)
+        und Aus (0). Diese beiden Zustände lassen sich ideal durch das
+        Binärsystem darstellen, in dem jede Information entweder 0 oder 1 ist.
+      </li>
+    </ul>
+    <p><strong>Grundrechenarten im Binärsystem</strong></p>
+    <p>
+      Das Rechnen mit Binärzahlen funktioniert ähnlich wie im Dezimalsystem, nur
+      mit den beiden Ziffern 0 und 1. Die vier Grundrechenarten (Addition,
+      Subtraktion, Multiplikation, Division) lassen sich auch auf Binärzahlen
+      anwenden:
+    </p>
+    <p><strong>Stellenwertsystem im Binärsystem</strong></p>
+    <p>
+      Jede Stelle in einer Binärzahl hat einen bestimmten Stellenwert, der eine
+      Zweierpotenz repräsentiert:
+    </p>
+    <ul>
+      <li>Die rechte Stelle ist die Einerstelle (2^0)</li>
+      <li>Die nächste die Zweierstelle (2^1)</li>
+      <li>dann die Viererstelle (2^2)</li>
+      <li>und so weiter.</li>
+    </ul>
+
+    <p>
+      Beispiel: Die Binärzahl <strong>1011</strong> entspricht der Dezimalzahl:
+    </p>
+    <p>1 * 2^3 + 0 * 2^2 + 1 * 2^1 + 1 * 2^0 = 8 + 0 + 2 + 1 = 11</p>
+    <p><strong>Umrechnung Dezimal zu Binär</strong></p>
+    <p>Beispiel: 19 (Dezimal) in Binär:</p>
+    <ul>
+      <li>9 ÷ 2 = 4 Rest 1</li>
+      <li>9 ÷ 2 = 4 Rest 1</li>
+      <li>4 ÷ 2 = 2 Rest 0</li>
+      <li>2 ÷ 2 = 1 Rest 0</li>
+      <li>1 ÷ 2 = 0 Rest 1</li>
+    </ul>
+    <p>
+      Von unten nach oben gelesen ergibt dies <strong>10011</strong> (Binär).
+    </p>
+    <hr />
+    <h1 id="lektion3">Lektion 3 Computational Thinking</h1>
+    <p><strong>Computational Thinking ist...</strong></p>
+    <ul>
+      <li>
+        die vierte Kulturtechnik des 21. Jahrhunderts, nach Lesen, Schreiben und
+        Rechnen. Es umfasst die Fähigkeiten und Denkweisen der Informatiker. Die
+        sie beherrschen sollten um Probleme zu lösen
+      </li>
+    </ul>
+    <p>Diese bestehen aus vier Schritten:</p>
+    <ul>
+      <li>
+        <strong>Dekomposition:</strong>
+      </li>
+      <ul>
+        <li>Die Zerlegung eines Problems in kleinere Teilprobleme.</li>
+        <li>
+          Beispiel: Die Planung einer Party in Teilbereichen einteilen. (Gäste,
+          Einkauf und Location)
+        </li>
+      </ul>
+      <li>
+        <strong>Mustererkennung: </strong>
+      </li>
+      <ul>
+        <li>
+          Identifizieren von Gemeinsamkeiten und Ähnlichkeiten zwischen
+          Problemen.
+        </li>
+        <li>
+          Beispiel: Eine Katzenparty ist sehr änlich gegenüber einer normalen
+          Party. Sodass man das Wissen von der normalen Party angewendet werden
+          kann.
+        </li>
+      </ul>
+      <li><strong>Abstraktion:</strong></li>
+      <ul>
+        <li>
+          Den Fokus auf die wichtigen Informationen haben und unwichtige Details
+          ausblenden.
+        </li>
+        <li>
+          Beispel: Bei einer Beschreibung einer Katze, sollte man sich auf die
+          allgemeinen Merkamele konzentrieren. Nicht auf individuelle Details.
+          (Klang des Miaus)
+        </li>
+      </ul>
+      <li><strong>Algorithmisches Desgign: </strong></li>
+      <ul>
+        <li>
+          Einen schrittweisen Plan (Algorithmus) erstellen, um das Problem zu
+          lösen
+        </li>
+        <li>
+          Beispiel: Die präzise Anleitung wie eine andere Person eine Katze
+          zeichnen kann.
+        </li>
+      </ul>
+    </ul>
+    <p><strong>Algorithmen sind...</strong></p>
+    <ul>
+      <li>
+        präzise und schrittweise Anleitungen zum Lösen von Problemen. Sie bilden
+        die Grundlage des Programmierens und werden in einer Programmiersprache
+        formuliert, sodass ein Computer sie ausführen kann.
+      </li>
+      <li>
+        Man kann einen Algorithmus vergleichen mit einem Kochrezept. Das hier
+        nur um digitale Anweisungen geht.
+      </li>
+    </ul>
+    <p><strong>Eigenschaften guter Algorithmen</strong></p>
+    <ul>
+      <li><strong>Allgemeingültigkeit:</strong></li>
+      <ul>
+        <li>
+          Ein guter Algorithmus zeigt sich darin dass er verschiedene Probleme
+          derselben Art lösen kann.
+        </li>
+      </ul>
+      <li><strong>Finitheit (Endlichkeit)</strong></li>
+      <ul>
+        <li>
+          <strong>Statisch finit:</strong> Der Algorithmus wird durch eine
+          begrenzte Anzahl von Befehlen beschrieben und hat ein definiertes
+          Ende.
+        </li>
+        <li>
+          <strong>Dynamisch finit:</strong> Der Algorithmus benötigt während der
+          Ausführung begrenzten Speicherplatz.
+        </li>
+      </ul>
+      <li><strong>Terminierung: </strong></li>
+      <ul>
+        <li>
+          Ein terminierter Algorithmus ist wenn er für jede beliebige Eingabe
+          nach einer endlichen Anzahl von Schritten ein Ergebnis liefert.
+        </li>
+      </ul>
+      <li><strong>Determinismus: </strong></li>
+      <ul>
+        <li>
+          Bezeichnet einen Algorithmus wenn er zu jedem Zeitpunkt der Ausführung
+          nur ein möglicher Folgezustand existiert. Dieselben Eingaben führen
+          immer zu denselben Schritten in derselben Reihenfolge.
+        </li>
+      </ul>
+      <li><strong>Determiniertheit: </strong></li>
+      <ul>
+        <li>
+          Ein Algorithmus liefert für dieselbe Eingabe immer dasselbe Ergebnis,
+          unabhängig davon, wie dieses erreicht wird. Deterministische
+          Algorithmen liefern immer determinierte Ergebnisse, aber
+          nichtdeterministische Algorithmen können auch determinierte Ergebnisse
+          liefern.
+        </li>
+      </ul>
+    </ul>
+    <p><strong>Beispiele von Algorithmen</strong></p>
+    <ul>
+      <li>
+        Ein Beispiel für einen Algorithmus ist der Quick Sort, der eine Liste
+        effizient sortiert, indem er sie wiederholt in kleinere Teilmengen
+        zerlegt und dann sortiert.
+      </li>
+      <li>
+        Algorithmen haben in vielen Bereichen Anwendung, zum Beispiel beim
+        autonomen Fahren, wo sie auf Basis von Echtzeit-Verkehrsdaten
+        Entscheidungen treffen.
+      </li>
+    </ul>
+    <hr />
+    <h1 id="lektion4">Lektion 4: Programmieren und Programmiersprachen</h1>
+    <p>
+      <strong
+        >Programmiersprachen: Kommunikation zwischen Mensch und Computer</strong
+      >
+    </p>
+    <ul>
+      <li>
+        Programmiersprachen sind die Schnittstellen zwischen Mensch und
+        Computer, um die Algorithmen umzusetzen.
+      </li>
+      <li>
+        Programmiersprachen gibt es über 700 verschiedene, die je nach
+        Anwendungsbereich verwendet werden.
+      </li>
+    </ul>
+    <p><strong>Programmierparadigmen</strong></p>
+    <ul>
+      <li><strong>Imperative Sprachen:</strong></li>
+      <ul>
+        <li>Befehle werden sequenziell ausgeführt.</li>
+        <li>Beispiel: C, C++, Java, Fortran</li>
+        <li>Unterkategorien:</li>
+        <ul>
+          <li>
+            <strong>Prozeduale Sprachen:</strong> Setzen auf Funktionsaufrufe
+            z.B. Pascal
+          </li>
+          <li>
+            <strong>Objektorientierte Sprachen:</strong> Arbeiten mit Objekten
+            und Klassen z.B. C++, Java, C#
+          </li>
+        </ul>
+      </ul>
+      <li><strong>Multiparadigmatische Sprachen:</strong></li>
+      <ul>
+        <li>Unterstützen mehrere Paradigmen z.B Python</li>
+      </ul>
+    </ul>
+    <p><strong>Syntax und Semantik</strong></p>
+    <ul>
+      <li>
+        <strong>Syntax:</strong> Sind die Regeln und Grammatik der
+        Programmiersprachen.
+      </li>
+      <ul>
+        <li>
+          Beispiel: In Python definiert man eine Funktion mit
+          <strong>def</strong>
+        </li>
+      </ul>
+      <li><strong>Semantik:</strong></li>
+      <ul>
+        <li>
+          Ein Porgramm muss syntaktisch korrekt geschrieben sein um zu
+          funktionieren.
+        </li>
+      </ul>
+    </ul>
+    <p><strong>Compiler vs. Interpreter</strong></p>
+    <ul>
+      <li><strong>Compiler:</strong></li>
+      <ul>
+        <li>
+          Der Compiler übersetzt den gesamten Quellcode in Maschinensprache,
+          bevor das Programm gestartet wird.
+        </li>
+        <li>Beispiel: C, C++, Fortran.</li>
+        <li>
+          Dieser erzeugt ausführbare Datein wie <strong>.exe</strong> oder
+          <strong>.com.</strong>
+        </li>
+      </ul>
+      <li><strong>Interpreter: </strong></li>
+      <ul>
+        <li>Übersetzt den Code Zeile für Zeile.</li>
+        <li>
+          <strong>Vorteil: </strong>Direkte Fehlermeldung einfacher zum
+          debuggen.
+        </li>
+        <li><strong>Nachteil: </strong>Langsamer als der Compiler</li>
+        <li>Beispiel: Python, PHP, Ruby.</li>
+      </ul>
+      <li><strong>Hyrbide Übersetzung:</strong></li>
+      <ul>
+        <li>
+          Kombination aus Compiler und Interpreter, z. B.
+          „Just-in-time“-Compiler (JIT).
+        </li>
+        <li>Beispiel: Java, C#.</li>
+        <li>
+          Übersetzt in einen Zwischencode, der von einer virtuellen Maschine
+          ausgeführt wird
+        </li>
+      </ul>
+    </ul>
+    <p><strong>Visuelle Programmiersprachen</strong></p>
+    <ul>
+      <li><strong>Blockbasierte Sprachen: </strong></li>
+      <ul>
+        <li>Beispiel: Scratch, Snap!, Catrobat.</li>
+        <li>
+          Gut für Einsteiger der Fokus liegt bei logischen Zusammenhängen. Keine
+          Syntaxfehler!
+        </li>
+        <li>Grafische Blöcke ganz einfach per Drag and Drop zusammenfügen.</li>
+      </ul>
+    </ul>
+    <hr />
+    <h1 id="lektion5">
+      Lektion 5: Das Internet und das Internet der Dinge (loT)
+    </h1>
+    <p><strong>Wie funktioniert das Internet?</strong></p>
+    <ul>
+      <li>
+        Das Internet ist ein globales Netzwerk aus Computern und Kabeln, das die
+        Kommunikation und den Datenaustausch weltweit ermöglicht.
+      </li>
+      <li>
+        Es besteht aus mehreren Netzwerken und wird durch Router und
+        Glasfaserkabel miteinander verbunden.
+      </li>
+      <li><strong>Datenübertragung: </strong></li>
+      <ul>
+        <li>
+          Ein Lokales Netzwerk nutzt (LAN), wo die Computer mit Ethernet-Kabel
+          verbuden sind. LAN ist beschränkt auf die Bereiche wie Haushalt oder
+          Firmen.
+        </li>
+        <li>
+          WLAN ermöglicht kabellose Übertragung innerhalb eines Haushaltes oder
+          Firma.
+        </li>
+        <li>
+          (LTE) Also die Mobilen Daten werden über Mobilfunkmasten übertragen.
+          Diese Verbindung ist über große Distanzen möglich.
+        </li>
+        <li>
+          Webseiten, Nachrichten und Dateien werden auf Servern gespeichert, die
+          in Global verteilten Rechenzentren stehen.
+        </li>
+        <li>Die Daten wandern durch mehrere Core Router zum Zielgerät.</li>
+      </ul>
+      <li><strong>Wichtige Netzwerkkomponeten:</strong></li>
+      <ul>
+        <li>
+          <strong>Edge Router: </strong>Ist die Verbindung von Endgeräten zum
+          Internet.
+        </li>
+        <li>
+          <strong>Core Router: </strong>Dieser verbindet verschiedene Netzwerke
+          untereinander und sind für die Weiterleitung der Daten verantwortlich.
+        </li>
+      </ul>
+    </ul>
+    <p><strong>Standards im Internet</strong></p>
+    <ul>
+      <li>
+        <strong>Internet Protocol (IP): </strong>Dient zur eindeutigen
+        Adressierung und Datenübertragung im Netzwerk.
+      </li>
+      <li>
+        <strong>Domain Name System (DNS): </strong>Übersetzt IP-Adressen in
+        lesbare Domainnamen (z.B. „tugraz.at“), die in hierarchischen Ebenen
+        organisiert sind.
+      </li>
+      <li>
+        <strong>HTML & XML: </strong>Standards zur Strukturierung von Daten und
+        Webseiten. HTML für die Darstellung von Webseiten, XML für
+        maschinenlesbare Datenstrukturen.
+      </li>
+    </ul>
+    <p><strong>Das Internet der Dinge (loT)</strong></p>
+    <ul>
+      <li>
+        <strong>Definition: </strong>Ist die Verbindung von Objekten mit dem
+        Internet. Um Daten zu sammeln und zu verarbeiten und auszutauschen.
+      </li>
+      <li><strong>Beispiele:</strong></li>
+      <ul>
+        <li>
+          <strong>Smartphones (Handy): </strong>Erfassen Standort, Bewegung und
+          Umgebungsdaten.
+        </li>
+        <li>
+          <strong>Wearables (Uhren, Armbänder): </strong>Messen Aktivität,
+          Schlaf und Vitalwerte wie Herzschlag.
+        </li>
+        <li>
+          <strong>Smart Home Geräte: </strong>Steuern Licht, Heizung und
+          Sicherheitssysteme.
+        </li>
+        <li>
+          <strong>Industrieanwendungen: </strong>Überwachen und Steuern die
+          Maschinen und Produktionslinien.
+        </li>
+      </ul>
+      <li><strong>Herausforderungen: </strong></li>
+      <ul>
+        <li>
+          <strong>Sicherheit: </strong>loT-Geräte sind oft Opfer von
+          Cyberangriffe.
+        </li>
+        <li>
+          <strong>Datenschutz: </strong>Die Daten was die Geräte sammeln müssen
+          geschützt werden, um Missbrauch zu verhindern.
+        </li>
+        <li>
+          <strong>Standardisierung: </strong>Es gibt viele unterschiedliche
+          Hersteller von Geräten. Die alle auf verschiedene Art und Weise
+          miteinander kommunizieren, was die Komplexität erhöht.
+        </li>
+      </ul>
+    </ul>
+    <p><strong>Vernetzung und Automatisierung</strong></p>
+    <ul>
+      <li>
+        <strong>Vernetzung</strong> von Geräten ermöglicht eine automatische
+        Steuerung und Anpassung, z.B. Anhand von Umgebungsparametern.
+      </li>
+      <li>
+        <strong>Beispiel:</strong> Ein smartes Heizsystem passt sich automatisch
+        an, um Energie zu sparen, wenn die Bewohner das Haus verlassen.
+      </li>
+      <li>
+        <strong>Potenzial:</strong> Effiziente Ressourcennutzung,
+        Gesundheitsüberwachung und verbesserte Lebensqualität durch
+        Automatisierung.
+      </li>
+    </ul>
+    <p><strong>Sicherheitsaspekte im loT</strong></p>
+    <ul>
+      <li>
+        <strong>Sicherheitslücken: </strong>Die unzureichende
+        Sicherheistmechanismen bei vielen loT-Geräten wie z.B schwache
+        Passwörter oder unsichere Datenübertragung.
+      </li>
+      <li>
+        <strong>Konsequenzen: </strong>Die Cyberangriffe können die Geräte
+        übernehmen (z.B. Kameras, Thermostate) oder sogar das Netzwerk stören.
+      </li>
+      <li><strong>Beispiele:</strong></li>
+      <ul>
+        <li>
+          Smart Home Geräte wie Thermostate oder Sicherheitskameras wurden
+          gehackt, um Nutzer auszuspionieren oder Geräte zu manipulieren.
+        </li>
+        <li>
+          Unzureichende Sicherheitsvorkehrungen bei IoT-Geräten führten zu groß
+          angelegten DDoS-Angriffen.
+        </li>
+      </ul>
+    </ul>
+    <p><strong>Zukunft des loT und Fazit</strong></p>
+    <ul>
+      <li>
+        Das Internet der Dinge wächst exponentiell. Bis 2020 werden über 50
+        Milliarden Geräte vernetzt sein.
+      </li>
+      <li>
+        <strong>Wichtig: </strong>Die Sicherheit und der Datenschutz müssen
+        genauso schnell wachsen.
+      </li>
+      <li>
+        <strong>Bedeutung: </strong>loT wird unser Leben in vielen Bereichen
+        revolutionieren. Von der Gesundheit bis zur Automatisierung in der
+        Industrie.
+      </li>
+    </ul>
+    <hr />
+    <h1 id="lektion6">Lektion 6: Die digitale Zukunft</h1>
+    <p><strong>Viedeospiele jetzt und in Zukunft</strong></p>
+    <ul>
+      <li>
+        <strong>Johanne Pirker </strong>sagt dass Videospiele in Zukunft immer
+        wichtiger werden in unserer Gesellschaft.
+      </li>
+      <li>
+        Die Spiele Entwicklung generiert schon mehr Umsatz als Hollywood und
+        bietet großes Potenzial für E-Learning und Gesundheitsanwendungen.
+      </li>
+      <li>
+        Das Spielen von Computerspiele kann Lernen ansprechender machen und dann
+        macht Lernen auch Spaß. Auch Virtual Reality wird eine große Rolle
+        spielen in unserer modernen Bildung.
+      </li>
+      <li>
+        Für die kommende Gerneration werden die Medien immer wichtiger sein sie
+        nutzen zu können.
+      </li>
+      <li>
+        <strong>Fazit: </strong>Spiele werden helfen die Welt besser zu
+        verstehen und negative belastete Themen wie Lernen attraktiver machen.
+      </li>
+    </ul>
+    <p><strong>Lernen in Zukunft</strong></p>
+    <ul>
+      <li>
+        <strong>Martin Ebner </strong>berschreibt das Lernen in der Zukunft
+        durch Virtual Reality und digitale Werkzeuge anschaulicher und flexibler
+        wird.
+      </li>
+      <li>
+        Lehrer können durch VR-Umgebungen direkt in den Lernprozess eingebunden
+        werden, was eine neue Art von sozialem Lernen ermöglicht.
+      </li>
+      <li>
+        Dank dieser Technologien kann Lernen und der Lernort perspektivenreicher
+        gestalter werden.
+      </li>
+      <li>
+        <strong>Fazit: </strong>Die Digitalisierung kann Lernen Spaßiger machen
+        und helfen Komplexe Konzepte zu verstehen.
+      </li>
+    </ul>
+    <p><strong>Big Data</strong></p>
+    <ul>
+      <li>
+        <strong>Martin Gersch </strong>betont ausfürlich vor dem "<em
+          >süßen Gift</em
+        >" der datengetriebener Geschäftsmodellen. Viele Nutzer geben unwissend
+        ihre Daten her für scheinbare kostenlose Dienste.
+      </li>
+      <li>
+        <strong>Hannes Rothe </strong>steht dafür das Nutzer fähig sind ihre
+        eigenen Daten bewusst zu verwalten und zu entscheiden welche Daten an
+        welchen Service freigegeben werden.
+      </li>
+      <li>
+        <strong>Fazit: </strong>Es muss mehr aufgeklärt werden wie Wertvoll die
+        persönlichen Daten sind.
+      </li>
+    </ul>
+    <p><strong>Paradigma der Interaktivität</strong></p>
+    <ul>
+      <li>
+        <strong>Wolfgang Schinagl </strong>beschreibt, dass die klassische
+        Interaktivität (z. B. Touchscreens, Sprachsteuerung) durch das
+        Relationship-Paradigma abgelöst wird.
+      </li>
+      <li>Systeme erkennen zunehmend Nutzerbedürfnisse im Vorfeld.</li>
+      <li>
+        Predictability und Ambient Computing erlauben Vorhersagen und
+        automatische Anpassungen ohne aktive Nutzerinteraktion.
+      </li>
+      <li>
+        <strong>Fazit: </strong>Das neue Paradigma geht über reine
+        Interaktivität hinaus und fokussiert auf die Vorhersagbarkeit von
+        Nutzerverhalten.
+      </li>
+    </ul>
+    <p><strong>Technick & Ethik</strong></p>
+    <ul>
+      <li>
+        <strong>Günter Getzinger </strong>würde das Recht auf Vergessenwerden in
+        zukünftige digitaler Welt einführen.
+      </li>
+      <li>Die Benutzer sollten das Recht haben auf das Löschen ihrer Daten.</li>
+      <li>
+        <strong>Fazit: </strong>Die Digitale Ethik wird immer wichtiger, um die
+        Rechte und Daten der Nutzer zu schützen.
+      </li>
+    </ul>
+    <p><strong>IT-Sicherheit</strong></p>
+    <ul>
+      <li>
+        <strong>Maria Eichlseder und Stefan More </strong>betonen dass das
+        Social Credit System wie in China eine Gefahr für die Freiheit
+        darstellt.
+      </li>
+      <li>
+        Sie fordern sichere Verschlüsselungsverfahren, die einfach implementiert
+        und genutzt werden können, um IT-Sicherheit zu gewährleisten.
+      </li>
+      <li>
+        <strong>Fazit: </strong>Die Sicherheit und die Überwachung muss kritisch
+        und mit klaren Regelungen geführt werden.
+      </li>
+    </ul>
+    <p><strong>Ressourcenkrise durch IT</strong></p>
+    <ul>
+      <li>
+        <strong>Rüdiger Wetzl </strong>möchte darauf hinweisen dass die
+        IT-Industrie zu einer Ressourcenkrise beiträgt. Die Produktion und
+        Entsorgung von Geräten eine hohe Umweltbelastung verursacht.
+      </li>
+      <li>
+        Er fordert eine <strong>effiziente Recyclingwirtschaft</strong> (Urban
+        Mining), um die negativen Effekte zu minimieren.
+      </li>
+      <li>
+        <strong>Fazit: </strong>Die Nachhaltigkeit muss bei elektronischen
+        Geräten ein wichtiger Bestandteil sein, um zukünftige Umweltprobleme zu
+        vermeiden.
+      </li>
+    </ul>
+    <p><strong>Unternehmen der Zukunft</strong></p>
+    <ul>
+      <li>
+        <strong>Frank Kappe </strong>würde die 3 Möglichkeit empfehlen das
+        Studierende ein Unternehmen gründen sollen, anstatt eine klassische
+        Arbeitssuche.
+      </li>
+    </ul>
+    <p><strong>Technik als Intelligenzverstärker</strong></p>
+    <ul>
+      <li>
+        <strong>Peter Purgathofer </strong>fordert ein Umdenken im Umgang mit
+        digitalen Rechten und der Anpassung an die digitale Realität.
+      </li>
+      <li>
+        <strong>Fazit: </strong>Es gehört für die digitale Welt ein neues
+        Konzept für den Besitz.
+      </li>
+    </ul>
+    <p><strong>Gesundheitssystem der Zukunft</strong></p>
+    <ul>
+      <li>
+        <strong>Günter Schreier </strong>beschreibt, wie datengetriebene
+        Diagnosen und vorsorgemedizinische Ansätze das Gesundheitswesen
+        revolutionieren können.
+      </li>
+      <li>
+        Ärzte könnten mit KI zusammen arbeiten um frühzeitige Krankheiten zu
+        erkennen und gezielte Präventionsmaßnahmen zu ergreifen.
+      </li>
+      <li>
+        <strong>Fazit: </strong>Das Gesundheitswesen wird sich in der Zukunft
+        noch sehr viel verändern.
+      </li>
+    </ul>
+    <hr />
+    <p><strong>Meine Stellungsnahme</strong></p>
+    <p>
+      Meiner Meinung nach haben Videospiele in der heutigen Gesellschaft einen
+      großen Einfluss und könnten in Zukunft noch wichtiger werden. Johanna
+      Pirker sieht das ähnlich, und ich finde ihre Gedanken sehr
+      nachvollziehbar. Ich stimme ihr zu, dass Spiele mehr als nur Unterhaltung
+      sind. Sie können helfen, komplexe Inhalte verständlicher zu machen,
+      besonders für die jüngere Generation, die mit dieser Technologie
+      aufgewachsen ist. Auch wenn viele skeptisch sind, sehe ich das Potenzial
+      von Videospielen im Bereich des E-Learnings und der Gesundheitsförderung.
+      Zudem fördern sie kreatives Denken und Problemlösungsfähigkeiten. Klar, es
+      gibt immer negative Stimmen, die sagen, dass Spiele eher schädlich sind,
+      aber ich denke, das hängt stark von der Nutzung ab. Wenn man sie gezielt
+      und sinnvoll einsetzt, können sie positive Effekte haben und sogar als
+      Werkzeug dienen, um die Welt besser zu verstehen.
+    </p>
+    <p>
+      Die digitale Zukunft wird von tiefgreifenden Veränderungen geprägt sein.
+      Neue Technologien, wie KI, Big Data und das Internet der Dinge, verändern
+      unsere Gesellschaft, Wirtschaft und persönliche Lebenswelt. Um diese
+      Transformation positiv zu gestalten, sind umfassendes technisches
+      Verständnis, ethische Reflexion und kritische Auseinandersetzung
+      erforderlich.
+    </p>
+    <hr />
+    <div class="video-section">
+    <h2>
+        Ein Video über Digitale Ethik
+    </h2>
+    
+    <div class="video-container">
+        <iframe 
+            src="https://www.youtube.com/embed/cuXC-S1H46k?start=1" 
+            title="Digitale Ethik - Erklärvideo" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+        </iframe>
+    </div>
+    </div>
+  </body>
+</html>
