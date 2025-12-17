@@ -1,0 +1,39 @@
+h1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+}
+
+ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    list-style: square;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.image_overlay {
+    position: flex;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.image_overlay img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay_text {
+    position: absolute;
+    width: 30%;
+    left: 10px;
+    top: 70px;
+    right: 0;
+    text-align: center;
+    color: white;
+    background: rgba(13, 58, 94, 0.575);
+    padding-right: 10px;
+    border-radius: 15px;
+}
