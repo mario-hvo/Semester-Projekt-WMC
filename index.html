@@ -1,32 +1,68 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>V-technics</title>
-    <link rel="stylesheet" href="particels.css">
-    <link rel="stylesheet" href="header.css">
+  <meta charset="UTF-8">
+  <title>V-technics – Zugang</title>
+  <style>
+    body {
+      margin: 0;
+      height: 400px;
+      background: #000;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .box {
+      text-align: center;
+      background: #222;
+      padding: 40px;
+      border-radius: 10px;
+    }
+    input {
+      padding: 12px;
+      font-size: 18px;
+      width: 280px;
+      margin: 20px 0;
+      background: #222;
+      color: white;
+      border: 2px solid #444;
+      border-radius: 6px;
+    }
+    button {
+      padding: 12px 40px;
+      font-size: 18px;
+      background: #0066cc;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0088ff;
+    }
+    .error {
+      color: #ff5555;
+      margin-top: 15px;
+      min-height: 20px;
+    }
+  </style>
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <h1>V</h1>
-            <p class="dash">-</p>
-            <h2>technics</h2>
-        </div>
-        
-        <nav class="nav-menu">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="3d_druck.html" class="nav-link">3D-Druck</a>
-            <a href="image.html" class="nav-link">Bild Bearbeitung</a>
-            <a href="#" class="nav-link">Drohne</a>
-            <a href="info_fit.html" class="nav-link">Informatik Fit</a>
-            <a href="dino.html" class="nav-link">Dino Game</a>
-            <a href="kontakt.html" class="nav-link">Kontakt</a>
-        </nav>
-    </header>
-    <canvas id="galaxy"></canvas>
-    <script src="particels.js"></script>
+
+  <div class="box">
+    <h2>Privater Bereich</h2>
+    <p>Schulprojekt HTL Bulme – nur für Berechtigte</p>
+    
+    <input type="password" id="pw" placeholder="Passwort">
+    <br>
+    <button onclick="check()">→ Weiter</button>
+    
+    <div id="error" class="error"></div>
+  </div>
+
+  <script src="login.js"></script>
 
 </body>
 </html>
