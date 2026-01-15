@@ -1,0 +1,31 @@
+.formular {
+    background-color: dimgray;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+legend {
+    text-align: center;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    border-block-end-style: solid;
+}
+
+.helpbtn {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.input-txt {
+    display: box;
+    padding: 15px;
+}
+
+.fileup {
+    display: list-item;
+    margin-top: 10px;
+}
